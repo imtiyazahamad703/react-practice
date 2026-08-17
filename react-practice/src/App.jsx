@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FacebookGhostMessage from "./components/FacebookGhostMessage";
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
 
 
     <button onClick={Add}>+</button> Value <button onClick={Remove}>-</button>
+
+    <FacebookGhostMessage />
 
     </>
   )
